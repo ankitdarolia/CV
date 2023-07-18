@@ -1,0 +1,217 @@
+---
+name: Ankit
+surname: 
+position: 
+pronouns: 
+address: "Rohtak, Haryana, India"
+phone: +91 9991830285
+profilepic: "./img.png"
+www: 
+email: "ankitshar3@gmail.com"
+twitter: 
+github: 
+linkedin: ankitshar3
+date: "`r format(Sys.time(), '%B %Y')`"
+output:
+  vitae::awesomecv:
+    page_total: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tibble)
+```
+
+# Objective
+
+Passionate educator with a strong mechanical engineering background seeking to inspire and empower students. Dedicated to creating a positive learning environment that fosters critical thinking, creativity, and personal growth. Committed to tailoring instruction, integrating innovative technologies, and promoting collaboration for student success. Let's inspire a love for learning and equip students with the skills they need to thrive.
+
+
+
+
+# Work experience
+
+```{r}
+tribble(
+  ~Position, ~Organization, ~Department, ~Date,
+  "Assistant Professor", "Government Engineering College (GEC) Jhalawar, Rajasthan", "Mechanical Engineering", "04 January 2018 - 20 September 2021",
+  "Assistant Professor", "GLA University, Mathura (U.P.)", "Mechanical Engineering", "July 2018 - October 2018"
+) %>%
+  detailed_entries(Organization, Date, Position, Department)
+```
+
+
+# Education
+
+```{r}
+tribble(
+  ~Degree, ~Date, ~Marks,~From,
+  "M.Tech (Industrial and Production Engineering)", "2017", "CGPA = 9.03/10", "NIT Kurukshetra",
+  "B.Tech (Mechanical Engineering)", "2014", "CGPA = 8.45/10", "NIT Kurukshetra",
+  "Higher Secondary Education", "2010", "Aggregate = 69%", "Sh Paul Bharati High School, Rohtak, Haryana",
+  "Secondary Education", "2008", "Aggregate = 78%", "Apex Public School, Kahrawar, Rohtak, Haryana"
+) %>%
+  detailed_entries(From, Date, Degree, Marks)
+
+
+```
+
+# Research project grants
+
+- As the Principal Investigator (PI), I spearheaded a research project titled "Development of Bio-FRP Based Composites for a Low-Cost Mobile Shelter Houses." This project was generously sponsored by NPIU-MHRD, and I successfully secured a grant amounting to ₹1985000. The project aimed to explore and develop innovative composite materials for constructing affordable and durable mobile shelter houses.
+
+# Programs Organized
+
+- Faculty Coordinator for Three-day VIRTUAL COVID CARE PROGRAM on "Post-COVID Rehabilitation with Meditation, Breath & Yoga," organized by GEC Jhalawar from 22nd to 24th June 2021.
+
+- Faculty Coordinator for organizing "Yoga Awareness Quiz" on International Yoga Day, 21st June 2021, for Mechanical Engineering Students at GEC Jhalawar.
+
+- Contributed as Organizing Committee Member for a one-Week STTP on "Design Innovation and Research" from July 16th to 20th, 2019, at GEC Jhalawar.
+
+- Co-Coordinator for AICTE Training and Learning Academy (ATAL) Sponsored One Week Faculty Development Program (FDP) on "3D-PRINTING TECHNOLOGY," organized by GEC Jhalawar from 12th to 16th July 2021.
+
+- Organizing Committee Member in the 5-day workshop on "Advanced CNC Technology" organized Under TEQIP-III, from 04th to 08th August 2020.
+
+- Event Coordinator for organizing a two-week Induction Programme for first-year students from 1st to 15th August 2020.
+
+- Faculty Coordinator for an online Quiz on "Robotics and its Applications" held on 21st June 2020, organized by the Department of Mechanical Engineering, GEC Jhalawar.
+
+- Faculty Coordinator for the National Level Quiz on "Online Aptitude Test" held on 19th June 2020, organized by the Department of Mechanical Engineering, GEC Jhalawar.
+
+- Programme Coordinator for One Week Workshop (Twinning Activity under TEQIP-III in collaboration with National Institute of Technology Karnataka, Surathkal) on "Recent Trends In Design Using Analytical And Computational Approaches" from 10th to 14th February 2020 at GEC Jhalawar.
+
+- Program Coordinator for Internal Hackathon, SIH 2020, held on 29th January 2020 at GEC Jhalawar.
+
+- Event Coordinator for organizing a two-week Induction Programme for first-year students from 1st to 15th August 2019 at GEC Jhalawar.
+
+- Faculty Coordinator for organizing the Social Event titled "Swachha Bharat 2k-19" on 15th April 2019 at GEC Jhalawar.
+
+- Faculty Coordinator for organizing the Technical Fest titled "MECHX 1.0" on 22nd April 2019 at GEC Jhalawar.
+
+- Faculty Coordinator for organizing the Non-Technical Event titled "FIRKI" on 18th March 2019 at GEC Jhalawar.
+
+- Coordinator in TEQIP-III Sponsored Short Training Program on "Fundamentals of Mechanical Engineering and its applications" from Sept. 4th to Sept. 8th, 2018, in GEC Jhalawar.
+
+- Event Coordinator for organizing a two-week Induction Programme for first-year students from 1st to 15th August 2018 in GEC Jhalawar.
+
+- Coordinator in TEQIP-III Sponsored two-week Training Program on "Academic and Skill Development" from July 02 July to 13 July 2018, GEC Jhalawar.
+
+# Academics related Responsibilities
+
+- Co-Coordinator for Academic-related work in the Mechanical Engineering Department at GEC Jhalawar.
+
+- Worked as Co-Coordinator in AICTE-related work at GEC Jhalawar.
+
+- Served as Equity Action Plan (EAP) nodal member for TEQIP-III at GEC Jhalawar.
+
+- Faculty In-charge of Workshop practice lab and Additive Manufacturing Lab at GEC Jhalawar.
+
+- Worked as Co-Advisor for the ROBO Club at GEC Jhalawar.
+
+- Faculty Coordinator and Mentor for students in the Mechanical Engineering Department at GEC Jhalawar.
+
+- Conducted GATE Classes, Remedial, Tutorial classes, Personality Development classes, and Mock interview sessions in the Mechanical Engineering Department at GEC Jhalawar.
+
+# Responsibilities other than academics
+
+- Coordinator for PMKVY (Pradhan Mantri Kaushal Vikas Yojana) for lathe operator course at GEC Jhalawar.
+
+- Committee member for Waste Management under Swachhta Action Plan (SAP) Activities at GEC Jhalawar.
+
+- Procurement committee member for various departmental labs at GEC Jhalawar.
+
+- Procurement committee member for AC Procurement at the Institute level in GEC Jhalawar.
+
+- Committee member for Work related to Water cooler Repairs at the institute level in GEC Jhalawar.
+
+- Committee member for Work related to Taxi empanelment at the institute level in GEC Jhalawar.
+
+\pagebreak
+
+# Achievements & Awards
+
+- Awarded for the best paper presentation entitled "Sustainable Natural Bio-Composites and Its Applications" at the International Conference on Evolution in Manufacturing (ICEM – 2020), December 10-12, 2020, organized by the Department of Mechanical Engineering, Malaviya National Institute of Technology Jaipur in association with NIT Uttarakhand & NIT Warangal.
+
+- Contributed as a Speaker in the TEQIP-III Sponsored Short Training Program on "Fundamentals of Mechanical Engineering and its applications" from Sept. 4th to Sept. 8th, 2018, at GEC Jhalawar.
+
+- Contributed as a Speaker in the TEQIP-III Sponsored 2 Weeks training program on "Academic and Skill Development" from July 2nd to July 13, 2018, at GEC Jhalawar.
+
+- Qualified the Graduate Aptitude Test in Engineering (GATE) exam.
+
+
+
+
+# MOOC Modules
+
+```{r}
+
+tribble(
+  ~Title_of_Course, ~Platform, ~Date,
+  "Introduction to Abrasive Machining And Finishing Processes", "NPTEL", "01 January 2020 - 01 March 2020",
+  "Introduction to Project Management", "Coursera", "08 June 2020",
+  "Create Training Videos with Powtoon", "Coursera", "10 June 2020",
+  "Introduction to CAD, CAM, and Practical CNC Machining", "Coursera", "26 June 2020",
+  "Essentials of Entrepreneurship: Thinking & Action", "Coursera", "27 June 2020",
+  "Use Canva to Design Digital Course Collateral", "Coursera", "12 July 2020",
+  "Intro to Digital Manufacturing with Autodesk Fusion 360", "Coursera", "21 July 2020",
+  "Use Canva to Design Digital Course Collateral", "Coursera", "12 July 2020"
+) %>%
+  detailed_entries(Platform, Date, Title_of_Course)
+```
+
+
+# Workshop attended
+
+```{r}
+tribble(
+  ~Programme_Title, ~Organizer, ~Duration, ~Date,
+  "Professional Training on 'Pedagogy and Modern Technology Tools'", "IEEE Rajasthan Subsection, Government Women Engineering College, Ajmer", "15 Days", "06 September 2021 - 21 September 2021",
+  "FDP on 'Foregrounding the Spectrum of Character Building in Modern Human Life'", "Balaji Institute of Technology & Science", "09 Days", "25 May 2021 - 03 June 2021",
+  "Faculty Development Programme on Advances in Manufacturing (AIM-2021)", "BIT Sindri, Dhanbad", "One Week", "15 May 2021 - 19 May 2021",
+  "Short term course on 'Materials Characterization Techniques'", "Department of MEMS, IIT Indore", "05 Days", "22 March 2021 - 27 March 2021",
+  "AICTE sponsored online Short Term Training Program (STTP) on GUIDANCE AND COUNSELLING", "St.Joseph's College of Engineering and Technology, Palai", "05 Days", "08 February 2021 - 13 February 2021",
+  "One Week AICTE sponsored Short Term Training Program on 'Design of Experiments in Engineering'", "B. V. RAJU INSTITUTE OF TECHNOLOGY", "One Week", "04 January 2021 - 09 January 2021",
+  "STC on Advanced Manufacturing Technology", "IIT Guwahati", "One Week", "21 December 2020 - 25 December 2020",
+  "MHRD sponsored TEQIP assisted course on 'Open Source Tools for Online Teaching'", "IIT Roorkee", "05 Days", "12 December 2020 - 16 December 2020",
+  "Short Term Course on Micromanufacturing Processes", "IIT Guwahati", "One Week", "30 November 2020 - 04 December 2020",
+  "TEQIP-III sponsored online short term course on Computational Methods and Analysis for Engineers", "Dr. B. R. Ambedkar National Institute of Technology, Jalandhar", "One Week", "18 November 2020 - 22 November 2020",
+  "Short Term Training Programme through ICT Mode on Hybrid Pedagogy", "National Institute of Technical Teachers' Training & Research (NITTTR), Kolkata", "05 Days", "02 November 2020 - 06 November 2020",
+  "TEQIP-III sponsored STTP Program on 'Modern Materials and Manufacturing'", "Sardar Vallabhbhai National Institute of Technology, Surat", "One Week", "12 October 2020 - 18 October 2020",
+  "National Workshop on Outcome Based Education and NBA Accreditation", "CREATES, IISER Bhopal, under PMMMNMTT Scheme, MHRD", "1 day", "10 October 2020",
+  "STTP on Managerial Skills For Academicians And Administrators", "National Institute of Technical Teachers Training & Research (NITTTR), Bhopal", "Two Week", "05 October 2020 - 16 October 2020",
+  "Online Training Programme on Digital tools for Writing, Authoring & Reviewing Manuscripts", "Electronics & ICT Academies, MNIT Jaipur, NIT Patna & IIT Guwahati", "Two Week", "21 September 2020 - 02 October 2020",
+  "Online Faculty Development Programme on 'ICT Tools for Teaching, Learning Process and Institute'", "Electronics and ICT Academies, Ministry of Electronics and Information Technology (MeitY), GoI", "Two Week", "10 August 2020 - 21 August 2020",
+  "Online Short Term Course on 'Reliability, Maintainability and Quality Issues in Process Industries'", "Dr. B. R. Ambedkar National Institute of Technology, Jalandhar", "One Week", "04 August 2020 - 08 August 2020",
+  "AICTE AQIS Sponsored Short Term Training Program on 'Advances in Additive Manufacturing'", "Siemens Centre of Excellence for Digital Manufacturing and Robotics under NAFETIC at Yeshwantrao Chavan College of Engineering, Nagpur", "05 days", "20 July 2020 - 25 July 2020",
+  "Online Short Term Course on 'Essential Tools in Optimization'", "Dr. B. R. Ambedkar National Institute of Technology, Jalandhar, Punjab", "05 days", "25 June 2020 - 29 June 2020",
+  "A Hands-On Workshop, Online activity of The BodhiTree and SAFE Tools for Effective Online Teaching", "Teaching Learning Centre (ICT) at IIT Bombay funded by the Pandit Madan Mohan Malaviya National Mission on Teachers and Teaching (PMMMNMTT), MHRD, Govt. of India", "One Week", "18 June 2020 - 24 June 2020",
+  "AICTE-ISTE approved STTP on 'E-Learning Tools, Methodologies and Content Management'", "College of Engineering and Technology, Akola", "One Week", "08 June 2020 - 13 June 2020",
+  "Indian Knowledge System for effective implementation of Student Induction Programme", "All India Council for Technical Education (AICTE)", "05 days", "09 May 2020 - 13 May 2020",
+  "Short Term Training Program on 'Experimental Measurements, Errors and Uncertainty Analysis'", "GEC Jhalawar with NITK Surathkal", "One Week", "10 February 2020 - 14 February 2020",
+  "Orientation Workshop for PI on collaborative research scheme", "NPIU in association with World Bank under TEQIP-III at AICTE Auditorium, New Delhi", "01 day", "16 July 2019",
+  "STTP on 'Design Innovation and Research'", "GEC Jhalawar", "One Week", "16 July 2019 - 20 July 2019",
+  "Summer training program on Advanced Pedagogies: Active Learning and Digital Tools", "IIT Bombay", "05 days", "03 June 2019 - 07 June 2019",
+  "Workshop on 'NBA Accreditation for UG Engineering Programs' at MNIT Jaipur", "SPIU, Rajasthan", "01 day", "30 May 2019",
+  "STTP on 'Make In India'", "IIT Bombay", "05 days", "29 March 2019 - 02 April 2019",
+  "Workshop on 'Effective Academic and Research Practices'", "GEC Jhalawar and NITK Surathkal", "2 days", "12 February 2019 - 13 February 2019",
+  "Training program titled 'Automation and Robotics'", "NITTTR, Chandigarh", "05 days", "25 June 2018 - 29 June 2018",
+  "FDP on 'Innovative Techniques in teaching learning paradigm'", "GEC Jhalawar", "One Week", "09 February 2018 - 12 February 2018",
+  "Faculty Induction Program", "IIT Gandhinagar", "One Week", "29 January 2018 - 02 February 2018",
+  "Workshop on 'Research Methodology & Manuscript Writing'", "NIT Kurukshetra", "02 Days", "09 April 2016 - 10 April 2016"
+) %>%
+  detailed_entries(Organizer, Date, Programme_Title, Duration)
+
+
+```
+
+
+# Publications
+
+```{r}
+library(dplyr)
+bibliography_entries("pub.bib") %>%
+  arrange(desc(author), issued)
+```
+
+
